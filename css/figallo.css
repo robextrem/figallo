@@ -440,6 +440,12 @@ label{
 	transform-origin: left center;
 	display: inline-block;
 	text-transform: uppercase;
+	margin: 0;
+  }
+
+  .subtitle::after {
+	content: '';
+	margin-left: -4.3vw; /* igual al letter-spacing */
   }
 
 @media (max-width: 900px) {
