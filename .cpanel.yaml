@@ -1,0 +1,15 @@
+---
+deployment:
+  tasks:
+    - export DEPLOY_DIR=/home/zai24nrwbb8c/public_html/figallo   # o la carpeta donde tengas alojado tu sitio
+    - echo "🔄 Iniciando despliegue..."
+
+    # Limpiar archivos anteriores (opcional)
+    - echo "🧹 Eliminando archivos anteriores..."
+    - rm -rf ~/${DEPLOY_DIR}/*
+
+    # Copiar nuevos archivos del repositorio
+    - echo "📁 Copiando archivos del repositorio al sitio web..."
+    - cp -r * ~/${DEPLOY_DIR}/
+
+    - echo "✅ Despliegue completado con éxito."
