@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400..800&family=Encode+Sans:wght@100..900&display=swap');
+
+*{
+    font-family: "Encode Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 125;
+}
+
+.may{
+    text-transform: uppercase;
+}
+
+.back-verde{
+    background: #dae17d;
+}
+
+.back-morado{
+    background: #7c66f6;
+}
+
+.back-claro{
+    background: #ede9ef;
+}
+
+.back-oscuro{
+    background: #2d2d2d;
+}
+
+.color-gris{
+    color: #2d2d2d;
+}
+
+.color-claro{
+    color: #ede9ef;
+}
+
+.color-verde{
+    color:#dae17d;
+}
+
+.color-morado{
+    color:#7c66f6;
+}
+
+.mb-0{
+    margin-bottom: 0 !important;
+}
+
+.mt-0{
+    margin-top: 0 !important;
+}
+
+.pt-0{
+    padding-top: 0;
+}
+
+.pb-0{
+    padding-bottom: 0 !important;
+}
+
+.pb-50{
+    padding-bottom: 50px;
+}
+
+.ml-izq{
+    margin-left: 20px;
+}
+
+.logo-figallo{
+    width: 100%;
+}
+
+.icon-menu{
+    font-size: 8px;
+    margin-right: 5px;
+}
+
+.icon-idioma{
+    font-size: 8px;
+    margin-left: 5px;
+}
+
+p{
+    font-size: 14px;
+    font-family: "Baloo Thambi 2", serif !important;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: #2d2d2d;
+
+}
+
+ol, ul{
+    color: #2d2d2d;
+}
+
+.bullet li{
+    list-style:url(../images/triangulo-bullet.png);
+    font-size: 14px;
+    font-family: "Baloo Thambi 2", serif !important;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    
+}
+
+.verde-bullet li{
+    list-style:url(../images/triangulo-bullet-verde.png);
+    font-size: 14px;
+    font-family: "Baloo Thambi 2", serif !important;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    
+}
+
+.t-ch{
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.t-inicio{
+	display: flex;
+	text-transform: uppercase;
+	flex-direction: column;
+}
+
+.t-inicio span{
+    background-color: #2d2d2d;
+    color: #dae17d;
+    display: inline-block;
+    font-weight: 800;
+    font-variation-settings:125;
+    padding: 0;
+    margin-bottom: 5px;
+	clear: right;
+	width: max-content;
+}
+
+.t-conquienes span{
+    color: #dae17d;
+    background-color: #7c66f6;
+    display: inline-block;
+    font-weight: 800;
+    font-variation-settings:125;
+    padding: 0;
+    margin-bottom: 3px;
+}
+
+.t-trabajamos{
+    color: #7c66f6;
+    display: inline-block;
+    font-weight: 800;
+    font-variation-settings:125;
+    padding: 0;
+    margin-bottom: 3px;
+}
+
+.t-hacemos{
+    font-weight: 800;
+    font-variation-settings:125;
+    padding: 0;
+    font-size: 28px;
+    margin-bottom: 0;
+    line-height: 30px;
+}
+
+.t-blog{
+    font-weight: 800;
+    font-variation-settings:125;
+    padding: 0;
+    font-size: 22px;
+    margin-bottom: 0;
+    line-height: 28px;
+    background: url(../images/triangulo2.png) no-repeat top left;
+    padding-left: 20px;
+}
+
+.t-reciente span{
+    background-color: #dae17d;
+    color: #7c66f6;
+    display: inline-block;
+    font-weight: 800;
+    font-variation-settings:125;
+    padding: 0;
+    font-size: 28px;
+    line-height: 30px;
+}
+.icon-t{
+    font-size: 50%;
+    margin-right: 5px;
+}
+
+.st-hacemos{
+    color: #2d2d2d;
+    background-color: #dae17d;
+    font-weight: 900;
+    font-variation-settings:125;
+    padding: 0;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.t-baloo{
+    font-family: "Baloo Thambi 2", serif !important;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.bold-baloo{
+    font-family: "Baloo Thambi 2", serif !important;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.textote{
+    font-family: "Encode Sans", serif !important;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 125;
+  font-size: 80px;
+  text-transform: uppercase;
+  line-height: 105px;
+  color: #2d2d2d;
+
+}
+
+.textote span{
+    font-family: "Encode Sans", serif !important;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 125;
+    color: #dae17d;
+    background-color: #2d2d2d;
+}
+
+.text-soluciones{
+    font-family: "Encode Sans", serif !important;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 125;
+    color: #2d2d2d;
+    font-size: 20px;
+    background: url(../images/triangulo.png) no-repeat top left;
+    padding-left: 20px;
+}
+
+.triangulo{
+    background: url(../images/triangulo.png) no-repeat top left;
+    padding-left: 20px;
+}
+
+.triangulo-v{
+    background: url(../images/triangulo_verde.png) no-repeat top left;
+    padding-left: 20px;
+}
+
+.triangulo-b{
+    background: url(../images/triangulo-blanco.png) no-repeat top left;
+    padding-left: 20px;
+}
+
+.triangulo-p{
+    background: url(../images/triangulo2.png) no-repeat top left;
+    padding-left: 8px;
+}
+
+.text-porque{
+    font-family: "Encode Sans", serif !important;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 125;
+    color: #2d2d2d;
+    font-size: 20px;
+}
+
+.t-contacto{
+    font-weight: 800;
+    font-variation-settings:125;
+    padding: 0;
+    font-size: 28px;
+    margin-bottom: 0;
+    line-height: 30px;
+}
+
+.t-contacto span{
+    font-weight: 800;
+    font-variation-settings:125;
+    padding: 0;
+    font-size: 28px;
+    margin-bottom: 0;
+    line-height: 30px;
+    color: #dae17d;
+    background-color: #2d2d2d;
+}
+
+.borde-gris{
+    border: #2d2d2d solid 1px;
+    margin: 0;
+}
+
+.borde-verde{
+    border: #dae17d solid 1px;
+    margin: 0;
+}
+
+.borde-b0{
+    border-bottom: 0;
+}
+.swiper-pagination-bullet{
+ 
+    border: #ede9ef 2px solid;
+    opacity: 1;
+}
+
+.columna-5 {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.premios-resp{
+    display: none;
+}
+
+label{
+    font-family: "Encode Sans", serif !important;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 125;
+      font-size: 18px;
+      color: #2d2d2d;
+      text-transform: uppercase;
+}
+
+.input-formulario{
+    background-color: #dae17d;
+    border: #2d2d2d solid 2px;
+}
+
+.btn-enviar{
+    font-family: "Encode Sans", serif !important;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 125;
+      font-size: 18px;
+      color: #ede9ef ;
+      background-color: #7c66f6;
+      text-transform: uppercase;
+      padding: 2px 15px;
+      margin: 0 auto;
+}
+
+.btn-enviar:hover{
+    border: 1px solid #7c66f6;
+    background-color: #dae17d;
+    color: #7c66f6;
+}
+
+.aviso{
+    font-family: "Encode Sans", serif !important;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 125;
+    color: #7c66f6;
+}
+.aviso:hover{
+    color: #7c66f6;
+    opacity: .5;
+}
+
+.redes{
+    height: 20px;
+    margin: 0 5px;
+    display: inline-flex;
+}
+
+.redes:hover{
+    opacity: .5;
+}
+
+.gracias{
+    background: url(../images/logotipo_vertical_figallo_agencia_de_publicidad_en_mexico.svg) no-repeat left;
+    background-color: #7c66f6;
+}
+
+.t-gracias span{
+    background-color: #2d2d2d;
+    color: #7c66f6;
+    display:flexbox;
+    font-weight: 800;
+    font-variation-settings:125;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.video-vimeo{
+    height: 480px;
+}
+
+.txt-white{
+    color: #fff;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 10px;
+}
+
+.redes-responsive{
+    display: none;
+}
+
+  
+  .subtitle {
+	text-align: center;
+	color: #7B66F6;
+	font-size: 4.3vw;
+	letter-spacing: 4.3vw;
+	word-spacing: 5px;
+	white-space: nowrap;
+	transform-origin: left center;
+	display: inline-block;
+	text-transform: uppercase;
+  }
+
+@media (max-width: 900px) {
+    .columna-5 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .gracias{
+        background-image: none;
+    }
+
+    .textote{
+      font-size: 28px;
+      line-height: 40px;
+    }
+
+    .premios{
+        display: none;
+    }
+
+    .premios-resp{
+        display: inline-block;
+    }
+
+    .icon-menu{
+        display: none;
+    }
+
+    header nav.navbar.white-link .navbar-nav > li > a, nav.navbar.bootsnav.white-link ul.nav > li > a, header nav.navbar.white-link .header-social-icon a, nav.navbar.bootsnav.white-link .header-social-icon a, header nav.navbar.white-link .header-searchbar a, nav.navbar.bootsnav.white-link .header-searchbar a, header nav.navbar.bootsnav ul.nav.white-link > li > a, nav.navbar.white-link .heder-menu-button a{
+        color: #fff;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .responsivo{
+        display: none !important;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .text-sm-center{
+        text-align: center !important;
+    }
+
+    .video-vimeo{
+        height: 200px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .col-serv-5{
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .redes-responsive{
+        display: inline-block;
+    }
+
+    .redes-pantalla{
+        display: none;
+    }
+}
