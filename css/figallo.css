@@ -207,6 +207,7 @@ ol, ul{
     font-size: 14px;
     display: inline-block;
     margin-left: 20px;
+	line-height: 30px;
 }
 
 .t-baloo{

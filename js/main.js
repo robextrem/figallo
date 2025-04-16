@@ -2556,4 +2556,18 @@ $(document).on('load', function () {
     }
 
     fullScreenHeight();
+
+	const container = document.getElementById("saludo");
+	const spans = container.querySelectorAll("span");
+	let index = 0;
+
+	function mostrarSiguienteSaludo() {
+		spans.forEach(span => span.classList.remove("visible"));
+		spans[index].classList.add("visible");
+		index = (index + 1) % spans.length;
+	}
+
+	mostrarSiguienteSaludo(); // Mostrar el primero
+	setInterval(mostrarSiguienteSaludo, 340); // Cambiar cada segundo
+	
 });
