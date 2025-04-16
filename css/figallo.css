@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400..800&family=Encode+Sans:wght@100..900&display=swap');
 
 *{
-    font-family: "Encode Sans", serif;
+    font-family: "Encode Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
@@ -51,6 +51,10 @@
 
 .mt-0{
     margin-top: 0 !important;
+}
+
+.mb-4{
+    margin-bottom: 25px !important;
 }
 
 .pt-0{
@@ -206,21 +210,21 @@ ol, ul{
 }
 
 .t-baloo{
-    font-family: "Baloo Thambi 2", serif !important;
+    font-family: "Baloo Thambi 2", sans-serif !important;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
 }
 
 .bold-baloo{
-    font-family: "Baloo Thambi 2", serif !important;
+    font-family: "Baloo Thambi 2", sans-serif !important;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
 }
 
 .textote{
-    font-family: "Encode Sans", serif !important;
+    font-family: "Encode Sans", sans-serif !important;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
@@ -234,7 +238,7 @@ ol, ul{
 }
 
 .textote span{
-    font-family: "Encode Sans", serif !important;
+    font-family: "Encode Sans", sans-serif !important;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
@@ -245,7 +249,7 @@ ol, ul{
 }
 
 .text-soluciones{
-    font-family: "Encode Sans", serif !important;
+    font-family: "Encode Sans", sans-serif !important;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
@@ -278,7 +282,7 @@ ol, ul{
 }
 
 .text-porque{
-    font-family: "Encode Sans", serif !important;
+    font-family: "Encode Sans", sans-serif !important;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
@@ -337,7 +341,7 @@ ol, ul{
 }
 
 label{
-    font-family: "Encode Sans", serif !important;
+    font-family: "Encode Sans", sans-serif !important;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
@@ -354,7 +358,7 @@ label{
 }
 
 .btn-enviar{
-    font-family: "Encode Sans", serif !important;
+    font-family: "Encode Sans", sans-serif !important;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
@@ -375,7 +379,7 @@ label{
 }
 
 .aviso{
-    font-family: "Encode Sans", serif !important;
+    font-family: "Encode Sans", sans-serif !important;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
@@ -432,9 +436,8 @@ label{
   
   .subtitle {
 	text-align: center;
-	color: #7B66F6;
 	font-size: 4.3vw;
-	letter-spacing: 4.3vw;
+	letter-spacing: 4.2vw;
 	word-spacing: 5px;
 	white-space: nowrap;
 	transform-origin: left center;
@@ -445,7 +448,88 @@ label{
 
   .subtitle::after {
 	content: '';
-	margin-left: -4.3vw; /* igual al letter-spacing */
+	margin-left: -4.2vw; /* igual al letter-spacing */
+  }
+
+  .subtitle.donde{
+	letter-spacing: 2.7vw;
+  }
+
+  .subtitle.donde::after {
+	content: '';
+	margin-left: -2vw; /* igual al letter-spacing */
+  }
+
+  .subtitle.porque{
+	letter-spacing: 2.9vw;
+  }
+
+  .subtitle.porque::after {
+	content: '';
+	margin-left: -2vw; /* igual al letter-spacing */
+  }
+
+  .subtitle.como{
+	letter-spacing: 3vw;
+  }
+
+  .subtitle.como::after {
+	content: '';
+	margin-left: -4vw; /* igual al letter-spacing */
+  }
+
+  .subtitle.aquien{
+	letter-spacing: 3.7vw;
+  }
+
+  .subtitle.aquien::after {
+	content: '';
+	margin-left: -3.7vw; /* igual al letter-spacing */
+  }
+
+  .subtitle.conquien{
+	letter-spacing: 2.4vw;
+  }
+
+  .subtitle.conquien::after {
+	content: '';
+	margin-left: -2.3vw; /* igual al letter-spacing */
+  }
+
+  .subtitle.que{
+	letter-spacing: 6.3vw;
+  }
+
+  .subtitle.que::after {
+	content: '';
+	margin-left: -6.3vw; /* igual al letter-spacing */
+  }
+
+  .subtitle.quien{
+	letter-spacing: 5.1vw;
+  }
+
+  .subtitle.quien::after {
+	content: '';
+	margin-left: -5.1vw; /* igual al letter-spacing */
+  }
+
+  #saludo {
+	margin-top: 2rem;
+  }
+
+  #saludo span {
+    display: none;
+    font-size: 9.5rem;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color:#7c66f6;
+    transition: opacity 0.3s;
+  }
+  #saludo span.visible {
+    display: inline;
+    opacity: 1;
   }
 
 @media (max-width: 900px) {
@@ -518,4 +602,25 @@ label{
     .redes-pantalla{
         display: none;
     }
+
+	.subtitle.conquien{
+		word-spacing: 0;
+		letter-spacing: 2.3vw;
+	}
+
+	.subtitle.aquien{
+		letter-spacing: 3.5vw;
+	}
+
+	.subtitle.porque{
+		letter-spacing: 2.6vw;
+	}
+
+	.subtitle.donde{
+		letter-spacing: 2.5vw;
+	}
+
+	#saludo span {
+		font-size: 6rem;
+	}
 }
