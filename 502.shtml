@@ -55,7 +55,7 @@
                        
                         <h1 class="t-gracias mb-0 may"><span>Error 404 :(</span></h1> 
                         <h6 class="text-extra-large color-gris may margin-10px-top">La página que buscas no existe. </h6> 
-                        <a href="index.html" class="inner-link bold-baloo btn btn-very-small btn-transparent-black lg-margin-15px-bottom d-lg-inline-block md-margin-lr-auto"><b>REGRESAR AL SITIO</b></a>
+                        <a href="/" class="inner-link bold-baloo btn btn-very-small btn-transparent-black lg-margin-15px-bottom d-lg-inline-block md-margin-lr-auto"><b>REGRESAR AL SITIO</b></a>
                         <p class="color-claro margin-50px-top">Entérate de lo que pasa en Figallo en <a href="https://www.instagram.com/figalloagency?igshid=1op6e9pur2qxx" style="margin-left: 10px;" target="_blank"><img src="images/instagram-v.svg" width="20"></a></p>
                         
                     </div>

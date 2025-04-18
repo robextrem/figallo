@@ -1,5 +1,8 @@
 RewriteEngine On
 
+# Redirigir /thankyou-page a /thankyou
+RewriteRule ^thankyou-page/?$ /thankyou [R=301,L]
+
 # Redirigir /loquesea/index a /loquesea/
 RewriteRule (.*)/index$ /$1/ [R=301,L]
 
