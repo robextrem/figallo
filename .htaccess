@@ -1,0 +1,14 @@
+RewriteEngine On
+
+# Redirigir /loquesea/index a /loquesea/
+RewriteRule (.*)/index$ /$1/ [R=301,L]
+
+# Redirigir .html a URLs limpias (por ejemplo: /pagina.html → /pagina)
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html [NC]
+RewriteRule ^([^.]+)\.html$ /$1 [R=301,L]
+
+# Servir .html cuando se solicita una URL limpia
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !\.html$
+RewriteRule ^(.+?)/?$ $1.html [NC,L]

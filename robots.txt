@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /thankyou-page
+Sitemap: https://figallo.agency/sitemap.xml
+
