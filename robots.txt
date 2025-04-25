@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /thankyou
+Disallow: /reglas-del-juego
 Sitemap: https://figallo.agency/sitemap.xml
 

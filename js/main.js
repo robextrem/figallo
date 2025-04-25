@@ -2558,3 +2558,30 @@ $(document).on('load', function () {
     fullScreenHeight();
 	
 });
+
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+	event.preventDefault(); // Detiene el envío
+
+	grecaptcha.ready(function() {
+		grecaptcha.execute('6Ld7XSMrAAAAAF86SenYqrVdRO6QFkDxQA8t2QLo', {action: 'submit'}).then(function(token) {
+		// Añadir el token como campo oculto al formulario
+		const form = document.getElementById('contact-form');
+
+		// Elimina tokens anteriores si ya existen
+		const existingInput = form.querySelector('input[name="g-recaptcha-response"]');
+		if (existingInput) {
+			existingInput.remove();
+		}
+
+		const input = document.createElement('input');
+		input.type = 'hidden';
+		input.name = 'g-recaptcha-response';
+		input.value = token;
+		form.appendChild(input);
+
+		// Ahora sí enviamos el formulario
+		form.submit();
+		});
+	});
+});

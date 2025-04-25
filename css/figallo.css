@@ -631,3 +631,8 @@ label{
 		font-size: 6rem;
 	}
 }
+
+.grecaptcha-badge {
+	opacity: 0;
+	transition: opacity 0.3s;
+  }
