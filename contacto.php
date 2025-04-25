@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $comentarios = $_POST['comentarios'];
 
         // Configurar el destinatario del correo electrónico
-        $destinatario = 'robextremo@gmail.com';
+        $destinatario = 'vieri@figallo.com.mx';
 
         // Construir el mensaje de correo electrónico
         $asunto = 'Nuevo mensaje de formulario de contacto';

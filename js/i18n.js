@@ -34,6 +34,9 @@ const i18n = {
 	  el.addEventListener('click', async (e) => {
 		await i18n.loadLocale(el.dataset.value);
 		document.querySelector("#lang").innerHTML = i18n.locale;
+	
+		//history.pushState({}, '',  i18n.locale);
+
 	  });
 	});
   });
