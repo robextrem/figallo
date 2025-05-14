@@ -19,3 +19,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} !\.html$
 RewriteRule ^(.+?)/?$ $1.html [NC,L]
+
+# Reescribe rutas limpias específicas a index.html con path=...
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(es-mx/servicios-relaciones-publicas|en/pr-agency-mexico|zh/moxige-gongguan-gongsi)/?$ index.html?path=$1 [QSA,L]
