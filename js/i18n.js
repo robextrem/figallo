@@ -30,7 +30,12 @@ const i18n = {
   
   document.addEventListener('DOMContentLoaded', async () => {
 	// Recuperar el idioma del localStorage, si está disponible
-	const savedLocale = localStorage.getItem('locale') || i18n.locale;
+
+	const rawSegment = window.location.pathname.split('/')[1] || '';
+	const code = rawSegment.substring(0, 2).toLowerCase();
+
+	const savedLocale = ['es', 'en', 'zh'].includes(code) ? code : (localStorage.getItem('locale') || i18n.locale);
+
 	await i18n.loadLocale(savedLocale);
 	if(document.querySelector("#lang")){
 		document.querySelector("#lang").innerHTML = savedLocale;
