@@ -498,6 +498,11 @@ label{
 	letter-spacing: 2.4vw;
   }
 
+  .subtitle.campaigns{
+		letter-spacing: 6vw;
+  }
+
+
   .subtitle.conquien::after {
 	content: '';
 	margin-left: -2.3vw; /* igual al letter-spacing */
