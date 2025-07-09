@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $correo = $_POST['correo'];
         $telefono = $_POST['telefono'];
         $comentarios = $_POST['comentarios'];
-
+		$servicio = $_POST['servicio'];
         // Configurar el destinatario del correo electrónico
         $destinatario = 'vieri@figallo.com.mx';
 
@@ -26,6 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mensaje .= "Correo electrónico: $correo\n\n";
         $mensaje .= "Teléfono: $telefono\n\n";
         $mensaje .= "Comentarios: $comentarios\n\n";
+        $mensaje .= "Servicio que necesita: $servicio\n\n";
 
         // Enviar el correo electrónico
         $headers = "From: $nombre <$correo>\r\n";
