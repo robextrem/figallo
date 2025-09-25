@@ -2562,7 +2562,7 @@ $(document).on('load', function () {
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
 	event.preventDefault(); // Detiene el envío
-
+	gtag_report_conversion(window.location.href);
 	grecaptcha.ready(function() {
 		grecaptcha.execute('6Ld7XSMrAAAAAF86SenYqrVdRO6QFkDxQA8t2QLo', {action: 'submit'}).then(function(token) {
 		// Añadir el token como campo oculto al formulario
