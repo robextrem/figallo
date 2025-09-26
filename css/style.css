@@ -428,7 +428,7 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
 /* button transparent */
 .btn.btn-transparent-white {background: transparent; border-color: #dae17d; color: #dae17d}
 .btn.btn-transparent-white:hover, .btn.btn-transparent-white:focus {background: #dae17d; border-color: #dae17d; color: #2d2d2d}
-.btn.btn-transparent-black {background: transparent; border-color: #2d2d2d; color: #2d2d2d}
+.btn.btn-transparent-black {background: transparent; border-color: #7c66f6; color: #7c66f6}
 .btn.btn-transparent-black:hover, .btn.btn-transparent-black:focus {background: #2d2d2d; border-color: #2d2d2d; color: #ffffff}
 .btn.btn-transparent-dark-gray {background: transparent; border-color: #232323; color: #232323}
 .btn.btn-transparent-dark-gray:hover, .btn.btn-transparent-dark-gray:focus {background: #232323; border-color: #232323; color: #ffffff}
