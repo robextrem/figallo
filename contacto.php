@@ -14,9 +14,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Recuperar los datos del formulario
         $nombre = $_POST['nombre'];
         $correo = $_POST['correo'];
-        $telefono = $_POST['telefono'];
-        $comentarios = $_POST['comentarios'];
-		$servicio = $_POST['servicio'];
+        // $telefono = $_POST['telefono'];
+        // $comentarios = $_POST['comentarios'];
+		// $servicio = $_POST['servicio'];
         // Configurar el destinatario del correo electrónico
         $destinatario = 'vieri@figallo.com.mx';
 
@@ -24,9 +24,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $asunto = 'Nuevo mensaje de formulario de contacto';
         $mensaje = "Nombre: $nombre\n\n";
         $mensaje .= "Correo electrónico: $correo\n\n";
-        $mensaje .= "Teléfono: $telefono\n\n";
-        $mensaje .= "Comentarios: $comentarios\n\n";
-        $mensaje .= "Servicio que necesita: $servicio\n\n";
+        // $mensaje .= "Teléfono: $telefono\n\n";
+        // $mensaje .= "Comentarios: $comentarios\n\n";
+        // $mensaje .= "Servicio que necesita: $servicio\n\n";
 
         // Enviar el correo electrónico
         $headers = "From: $nombre <$correo>\r\n";
