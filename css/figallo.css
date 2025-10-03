@@ -188,7 +188,7 @@ ol, ul{
 
 .t-reciente span{
 	text-transform: uppercase;
-    background-color: #dae17d;
+    
     color: #7c66f6;
     display: inline-block;
     font-weight: 800;
@@ -203,8 +203,7 @@ ol, ul{
 }
 
 .st-hacemos{
-    color: #2d2d2d;
-    background-color: #dae17d;
+    color: #dae17d;
     font-weight: 900;
     font-variation-settings:125;
     padding: 0;
